@@ -21,3 +21,9 @@ RETRIEVING DATA USING EMPLOYEE TABLE
 
     SELECT * FROM employee
     WHERE deptno = 30 AND job IN ('MANAGER','CLERK');
+    
+#6. Find all managers NOT in department 30
+
+    SELECT * FROM employee
+    WHERE job = 'MANAGER' AND deptno <> 30;
+    
