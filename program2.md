@@ -16,3 +16,8 @@ RETRIEVING DATA USING EMPLOYEE TABLE
 #3. Find all department numbers with department names greater than 20
 
     SELECT deptno FROM department WHERE deptno > 20;
+    
+#4. Find all information about managers and clerks in department 30
+
+    SELECT * FROM employee
+    WHERE deptno = 30 AND job IN ('MANAGER','CLERK');
