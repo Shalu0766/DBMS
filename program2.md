@@ -44,5 +44,5 @@ RETRIEVING DATA USING EMPLOYEE TABLE
 
 #10. List Name and Department Number of employees whose names begin with M
 
-   SELECT ename, deptno FROM employee
-   WHERE ename LIKE 'M%';
+      SELECT ename, deptno FROM employee
+      WHERE ename LIKE 'M%';
