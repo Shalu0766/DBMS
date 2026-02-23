@@ -45,4 +45,7 @@
             SELECT ename FROM employee
             WHERE job = 'CLERK' AND sal > 3000;
 
-    
+#10. Employees who are clerk / salesman / analyst and earning > 3000
+
+             SELECT ename FROM employee
+             WHERE job IN ('CLERK','SALESMAN','ANALYST') AND sal > 3000;
