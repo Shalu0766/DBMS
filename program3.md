@@ -10,3 +10,8 @@
 
     SELECT job, deptno FROM employee
     WHERE ename LIKE 'A___N';
+
+#3. Names of employees starting with S
+
+     SELECT ename FROM employee
+     WHERE ename LIKE 'S%';
