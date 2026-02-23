@@ -37,3 +37,7 @@ RETRIEVING DATA USING EMPLOYEE TABLE
     SELECT ename, job, sal FROM employee
     WHERE sal BETWEEN 1200 AND 1400;
    
+#9. List Name and Department Number of employees who are
+
+    SELECT ename, deptno FROM employee
+    WHERE job IN ('CLERK','ANALYST','SALESMAN');
