@@ -4,3 +4,9 @@
 
       SELECT * FROM employee
       WHERE hiredate < '1980-06-30' OR hiredate > '1981-12-31';
+
+#2. Names of employees whose second alphabet is A
+
+      SELECT ename FROM employee
+      WHERE ename LIKE '_A%';
+      
