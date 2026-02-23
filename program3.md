@@ -25,3 +25,10 @@
 
         SELECT ename FROM employee
         WHERE deptno IN (10,20,40) OR job IN ('CLERK','SALESMAN','ANALYST');
+
+#6. Employee number & name of employees who earn commission
+
+         SELECT empno, ename FROM employee
+         WHERE comm IS NOT NULL AND comm > 0;
+
+        
