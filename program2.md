@@ -32,7 +32,7 @@ RETRIEVING DATA USING EMPLOYEE TABLE
     SELECT * FROM employee
     WHERE deptno = 10 AND job NOT IN ('MANAGER','CLERK');
     
-8. Find employees and jobs earning between 1200 and 1400
+#8. Find employees and jobs earning between 1200 and 1400
 
     SELECT ename, job, sal FROM employee
     WHERE sal BETWEEN 1200 AND 1400;
