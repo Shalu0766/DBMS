@@ -9,5 +9,3 @@
 # 2. Job & DeptNo of employees
   #Name = 5 letters, starts with A and ends with N _ → exactly one character
 
-  SELECT job, deptno FROM employee
-  WHERE ename LIKE 'A___N';
