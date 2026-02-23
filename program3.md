@@ -6,3 +6,7 @@
      SELECT ename, job, sal FROM employee
      WHERE deptno = 30 ORDER BY sal DESC;
 
+#2. Job & DeptNo of employees
+
+    SELECT job, deptno FROM employee
+    WHERE ename LIKE 'A___N';
