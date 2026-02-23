@@ -40,3 +40,9 @@
 
            SELECT empno, sal*12 AS annual_salary FROM employee;
 
+#9. Employees who are clerks earning > 3000
+
+            SELECT ename FROM employee
+            WHERE job = 'CLERK' AND sal > 3000;
+
+    
