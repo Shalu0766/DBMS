@@ -31,4 +31,8 @@
          SELECT empno, ename FROM employee
          WHERE comm IS NOT NULL AND comm > 0;
 
-        
+#7. Employee number & total salary for each employee
+
+          SELECT empno, (sal + IFNULL(comm,0)) AS total_salary
+          FROM employee; 
+
