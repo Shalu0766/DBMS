@@ -10,3 +10,8 @@
       SELECT ename FROM employee
       WHERE ename LIKE '_A%';
       
+#3. Names of employees whose name is exactly 5 characters
+
+      SELECT ename FROM employee
+      WHERE LENGTH(ename) = 5;
+
