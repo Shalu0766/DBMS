@@ -1,0 +1,7 @@
+#🔹 RETRIEVING DATA – SET 2 (EMPLOYEE TABLE)
+
+#1. Employees & jobs in Dept 30, ordered by salary (DESC)
+  #📌 ORDER BY sal DESC → highest salary first
+
+     SELECT ename, job, sal FROM employee
+     WHERE deptno = 30 ORDER BY sal DESC;
