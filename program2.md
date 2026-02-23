@@ -41,3 +41,8 @@ RETRIEVING DATA USING EMPLOYEE TABLE
 
     SELECT ename, deptno FROM employee
     WHERE job IN ('CLERK','ANALYST','SALESMAN');
+
+#10. List Name and Department Number of employees whose names begin with M
+  
+   SELECT ename, deptno FROM employee
+   WHERE ename LIKE 'M%';
