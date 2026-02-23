@@ -15,3 +15,8 @@
 
      SELECT ename FROM employee
      WHERE ename LIKE 'S%';
+
+#4. Names of employees ending with S
+
+      SELECT ename FROM employee
+      WHERE ename LIKE '%S';
