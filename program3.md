@@ -36,3 +36,7 @@
           SELECT empno, (sal + IFNULL(comm,0)) AS total_salary
           FROM employee; 
 
+#8. Employee number & annual salary
+
+           SELECT empno, sal*12 AS annual_salary FROM employee;
+
