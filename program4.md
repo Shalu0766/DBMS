@@ -15,3 +15,12 @@
       SELECT ename FROM employee
       WHERE LENGTH(ename) = 5;
 
+#4. Names of employees whose second alphabet is A
+
+      SELECT ename FROM employee
+      WHERE ename LIKE '_A%';
+
+#5. Employees NOT working as salesman, clerk or analyst
+
+       SELECT ename FROM employee
+       WHERE job NOT IN ('SALESMAN','CLERK','ANALYST');
