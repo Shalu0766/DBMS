@@ -20,3 +20,8 @@
 
       SELECT ename FROM employee
       WHERE ename LIKE '%S';
+
+#5. Employees working in Dept 10 / 20 / 40
+
+        SELECT ename FROM employee
+        WHERE deptno IN (10,20,40) OR job IN ('CLERK','SALESMAN','ANALYST');
