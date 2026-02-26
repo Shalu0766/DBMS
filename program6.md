@@ -53,4 +53,19 @@
               SELECT ename FROM employee
               WHERE LEFT(YEAR(hiredate),2) = RIGHT(sal,2);
 
-              
+#11. Employees whose 10% salary = year of joining
+
+               SELECT ename FROM employee
+               WHERE sal * 0.10 = YEAR(hiredate);
+
+#12. Employees who joined before 15th of the month
+
+               SELECT ename, hiredate FROM employee
+               WHERE DAY(hiredate) < 15;
+
+#13. Employees whose joining date is available in deptno
+
+               SELECT ename FROM employee
+               WHERE DAY(hiredate) = deptno;
+
+
